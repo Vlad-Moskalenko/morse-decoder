@@ -50,7 +50,6 @@ function decode(expr) {
           if(sum%11===0) out+= '-';
       }  
       res.push(out)
-      console.log(res)
     }
     res.forEach(item => {if(item === '') {str+= ' '} 
   else{str+=MORSE_TABLE[item]}})
